@@ -2,7 +2,7 @@
 
 int main(){
     int m;
-
+    // Pattern For Increasing Number Triangle
     printf("Enter the Num Of Elements:");
     scanf("%d",&m);
 
