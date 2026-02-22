@@ -63,7 +63,7 @@ I continuously update this repository as I learn new concepts and improve my cod
 
 Khuman Dhakad  
 MCA Student | Aspiring Software Developer  
-Learning C → C++ → Java 🚀
+Learning C → C++ → Java And DSA 🚀
 
 ---
 
