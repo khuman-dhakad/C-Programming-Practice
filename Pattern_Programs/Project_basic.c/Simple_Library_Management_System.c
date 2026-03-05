@@ -39,6 +39,26 @@ void showBooks() {
     }
 }
 
+void searchBook() {
+    int id, i, found = 0;
+
+    printf("\nEnter Book ID to search: ");
+    scanf("%d", &id);
+
+    for (i = 0; i < count; i++) {
+        if (library[i].id == id) {
+            printf("Book Found!\n");
+            printf("Name: %s | Author: %s\n",
+                   library[i].name,
+                   library[i].author);
+            found = 1;
+            break;
+        }
+    }
+
+    if (!found)
+        printf("Book not found!\n");
+}
 
 int main(){
       int choice;
