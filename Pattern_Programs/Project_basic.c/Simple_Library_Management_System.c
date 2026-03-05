@@ -9,6 +9,20 @@ struct Book {
 struct Book library[50];
 int count = 0;
 
+void addBook() {
+    printf("\nEnter Book ID: ");
+    scanf("%d", &library[count].id);
+
+    printf("Enter Book Name: ");
+    scanf("%s", library[count].name);
+
+    printf("Enter Author Name: ");
+    scanf("%s", library[count].author);
+
+    count++;
+    printf("Book added successfully!\n");
+}
+
 int main(){
       int choice;
 
