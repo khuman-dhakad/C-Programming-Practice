@@ -22,6 +22,23 @@ void addBook() {
     count++;
     printf("Book added successfully!\n");
 }
+void showBooks() {
+    int i;
+
+    if (count == 0) {
+        printf("\nNo books available.\n");
+        return;
+    }
+
+    printf("\n--- Book List ---\n");
+    for (i = 0; i < count; i++) {
+        printf("ID: %d | Name: %s | Author: %s\n",
+               library[i].id,
+               library[i].name,
+               library[i].author);
+    }
+}
+
 
 int main(){
       int choice;
