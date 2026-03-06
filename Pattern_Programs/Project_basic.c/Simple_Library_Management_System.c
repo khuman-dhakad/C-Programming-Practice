@@ -22,9 +22,9 @@ void addBook()
     scanf("%d", &library[count].id);
 
     printf("Enter Book Name: ");
-scanf(" %[^\n]", library[count].name);
+    scanf(" %[^\n]", library[count].name);
     printf("Enter Author Name: ");
-    scanf("%s", library[count].author);
+    scanf("%[^\n]", library[count].author);
 
     count++;
     printf("Book added successfully!\n");
