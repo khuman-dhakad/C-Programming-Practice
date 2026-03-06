@@ -79,7 +79,9 @@ int main()
 
     while (1)
     {
-        printf("\n===== Library System =====\n");
+        printf("\n=============================\n");
+        printf("       Library System\n");
+        printf("=============================\n");
         printf("1. Add Book\n");
         printf("2. Show Books\n");
         printf("3. Search Book\n");
